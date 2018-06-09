@@ -1,0 +1,7 @@
+nota = input("ingrese la nota de la evaluación: ")
+nota = float(nota)
+peval = input("ingrese el porcentaje de evaluación correspondiente a la nota: ")
+peval = float(peval)
+nota_final = nota*peval/100
+print(nota_final)
+
